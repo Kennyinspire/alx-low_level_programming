@@ -1,10 +1,14 @@
 #!/bin/bash
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Description: A C program that prints with put function
+ * Return: returns 0 (Success)
+*/
+
 int main(void)
-{	char Mystr[] = "Programming is like building a multilingual puzzle";
-
-	puts(Mystr\n);
-
-	return 0;
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
