@@ -2,19 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main-entry point
- * Description: A script that print variable n if it is positive or negative
- */
+/**
+ * main- entry point
+ * Description: A script that print variable n and determines
+ * if it is negative or positive
+*/
 
 int main(void)
 {
 	int n;
-	
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
+	/my code/
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
