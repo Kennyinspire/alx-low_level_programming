@@ -1,7 +1,7 @@
 #include <unistd.h>
 /**
  * main - entry point.
- * C program that compile without any warnings
+ * Description:  C program that compile without any warnings
  */
 int main(void)
 {
