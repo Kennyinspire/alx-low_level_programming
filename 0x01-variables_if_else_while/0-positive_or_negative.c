@@ -6,6 +6,7 @@
  * main- entry point
  * Description: A script that print variable n and determines
  * if it is negative or positive
+ * Return: return 0 as success
 */
 
 int main(void)
