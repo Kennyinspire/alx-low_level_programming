@@ -2,7 +2,7 @@
 /**
  * main - entry point.
  * Description: C program that compile without any warnings
- * Return: return 0 
+ * Return: return 0.
  */
 int main(void)
 {
