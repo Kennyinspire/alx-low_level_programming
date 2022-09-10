@@ -12,7 +12,7 @@ int main(void)
 	char alphaUpper = 'A';
 
 	/*print in lowercase */
-	while (alpha <= 'z')
+	while (alphaLower <= 'z')
 	{
 		putchar(alphaLower);
 		alphaLower++;
