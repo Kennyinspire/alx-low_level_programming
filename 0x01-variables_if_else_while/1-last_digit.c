@@ -7,10 +7,11 @@
 /**
  * main- entry point
  * Description: A script that print variable n and it's last digit
+ *
  * Return: return 0 as success
  */
 
-int main(void)
+	int main(void)
 {
 	int n, lastDigit;
 	srand(time(0));
