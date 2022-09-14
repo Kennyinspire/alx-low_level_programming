@@ -8,16 +8,6 @@
 
 int _abs(int n)
 {
-	if (n < 0)
-	{
-		/* turn -ve number to +ve */
-		n = (-1) * n;
-	}
-
-	return (n);
-}
-int _abs(int n)
-{
 	if (n >= 0)
 		return (n);
 	else
