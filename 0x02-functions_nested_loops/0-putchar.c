@@ -7,8 +7,11 @@
  * Return: return 0 as success
 */
 
+#include "main.h"
+
 int main(void)
 {
-	putchar('\n');
+	_putchar('\n');
+
 	return (0);
 }
