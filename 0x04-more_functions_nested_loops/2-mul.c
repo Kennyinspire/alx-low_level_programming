@@ -3,7 +3,7 @@
 /**
  * mul - multiples of two numbers
  * @a: first number
- * @b: secon number
+ * @b: second number
  * Return: return result
  */
 
