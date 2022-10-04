@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * str_concat - A function that concatenates two string.
+ * str_concat - A function that concantenates two string
  * @s1:First string
  * @s2:Second string
  *
- * Return: NULL if the function fails,
- * pointer to new string in case of success
+ * Return: NULL in case of failure
  */
 
 char *str_concat(char *s1, char *s2)
@@ -16,10 +15,13 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
-		s2 "";
+		s2 = "";
+
 	for (index = 0; s1[index] || s2[index]; index++)
 		len++;
+
 	concat_str = malloc(sizeof(char) * len);
 
 	if (concat_str == NULL)
