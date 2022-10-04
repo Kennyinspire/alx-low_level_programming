@@ -6,11 +6,11 @@
  * @size: Size of the array
  * @c: Character to insert
  *
- * Return: NULL if size iz zero
+ * Return: NULL if size iz zer0,
  * pointer to array if everyhing is normal.
  */
 
-char *create_array(unsinged int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int index;
