@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * malloc_checked - allocates memory using malloc
- * @b: memory to allocate
+ * malloc_checked - array for printing a string
+ * @b: number of memory
  *
- * Return: pointer to allocated memory or terminate process if error
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
@@ -14,6 +13,9 @@ void *malloc_checked(unsigned int b)
 
 	p = malloc(b);
 	if (p == NULL)
+	{
 		exit(98);
+	}
+
 	return (p);
 }
