@@ -2,8 +2,8 @@
 
 /**
  * main - multiples two positive numbers
- * @argc: argument count
- * @argv: argument
+ * @argc: n arguments
+ * @argv: args
  *
  * Return: int
  */
