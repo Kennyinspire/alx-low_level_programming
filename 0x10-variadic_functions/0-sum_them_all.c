@@ -2,9 +2,9 @@
 
 /**
  * sum_them_all - ...
- * @n: parameter to sum
+ * @n: ...
  *
- * Return: Always return (0)
+ * Return: ...
  */
 
 int sum_them_all(const unsigned int n, ...)
